@@ -1,0 +1,113 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 20px 60px;
+    background-image: url(bgd.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-right: 40px;
+    font-weight: bolder;
+}
+nav button{
+    background:none;
+    padding: 15px;
+    border-radius: 16px;
+    color: white;
+    border: 2px solid #b2dcfe;
+    font-weight: bolder;
+}
+
+#main {
+    margin-top: 30vh;
+    text-align: center;
+}
+#main h1 {
+    font-size: 62px;
+    color: white;
+}
+
+#main input {
+    background: none;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 450px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.5s;
+
+}
+#main input::placeholder{
+    color: rgb(208, 204, 204);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#main input:focus{
+    /* padding-bottom: 9px; */
+    border: 1px solid #24edd2;
+    border-radius: 20px;
+    background-color: rgba(0,20,33,.7);
+    transition: all 0.5s;
+}
+
+#main button{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #69EED3;
+    font-weight: bolder;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60px;
+    top: 140px;
+}
+aside a:last-child{
+    margin-bottom: 0;
+}
+aside a {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+
+#text {
+    font-size: 25px;
+    color: #d8e2eb78;
+    font-style: italic;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+}
+#message button {
+    padding: 30px;
+    border-radius: 30px 15px 30px 30px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+    background-color: #69EED3;
+    box-shadow: -2px 5px 10px 2px black;
+}
